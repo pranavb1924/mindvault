@@ -1,0 +1,97 @@
+<div class="login-container">
+    <!-- Left Side - Feature Showcase -->
+    <div class="features-showcase">
+      <div class="feature-slides">
+        <div class="slide" [class.active]="currentSlide === 0">
+          <div class="slide-content">
+            <div class="slide-image">
+              <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Writing in journal" />
+            </div>
+            <div class="slide-caption">
+              <h3>Capture Your Thoughts</h3>
+              <p>Write freely in your personal digital space</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slide" [class.active]="currentSlide === 1">
+          <div class="slide-content">
+            <div class="slide-image">
+              <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Beautiful typography" />
+            </div>
+            <div class="slide-caption">
+              <h3>Beautiful Typography</h3>
+              <p>Customize fonts to match your style</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slide" [class.active]="currentSlide === 2">
+          <div class="slide-content">
+            <div class="slide-image">
+              <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Secure and private" />
+            </div>
+            <div class="slide-caption">
+              <h3>Private & Secure</h3>
+              <p>Your memories are safe with us</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slide" [class.active]="currentSlide === 3">
+          <div class="slide-content">
+            <div class="slide-image">
+              <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Organized memories" />
+            </div>
+            <div class="slide-caption">
+              <h3>Organize Your Journey</h3>
+              <p>Find and revisit your favorite moments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Slide Indicators -->
+      <div class="slide-indicators">
+        <button 
+          *ngFor="let slide of slides; let i = index" 
+          [class.active]="currentSlide === i"
+          (click)="goToSlide(i)"
+          class="indicator">
+        </button>
+      </div>
+      
+      <!-- App Branding -->
+      <div class="app-branding">
+        <h1>MindVault</h1>
+        <p>Your personal digital journal</p>
+      </div>
+    </div>
+    
+    <!-- Right Side - Login Form -->
+    <div class="login-form">
+      <form class="card" [formGroup]="form" (ngSubmit)="submit()">
+        <h2>Welcome Back</h2>
+        <p class="subtitle">Sign in to your account</p>
+  
+        <div class="input-group">
+          <input type="email" placeholder="Email address" formControlName="email">
+          <span class="err" *ngIf="err('email')">Valid email required</span>
+        </div>
+  
+        <div class="input-group">
+          <input type="password" placeholder="Password" formControlName="password">
+          <span class="err" *ngIf="err('password')">Password required</span>
+        </div>
+  
+        <button type="submit" [disabled]="loading || form.invalid">
+          {{ loading ? 'Signing in…' : 'Sign In' }}
+        </button>
+  
+        <p class="link">
+          Need an account? 
+          <a routerLink="/register">Create account</a>
+        </p>
+      </form>
+    </div>
+  </div>

@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddef9b5a-eeb2-44d2-ba80-9030caaa50c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/controller/JournalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/dto/JournalEntryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/dto/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/model/JournalEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/model/PasswordResetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/repository/JournalEntryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindvault/mindvault/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sb-ecom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sb-ecom/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sb-ecom/src/main/java/com/ecommerce/project/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sb-ecom/src/main/java/com/ecommerce/project/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sb-ecom/src/main/java/com/ecommerce/project/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sb-ecom/src/main/java/com/ecommerce/project/model/Category.java" afterDir="false" />
@@ -25,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -54,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.MindvaultApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/pranavb/Desktop/Summer Projects/mindvault/backend/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -103,6 +113,9 @@
       <workItem from="1749931455717" duration="9000" />
       <workItem from="1749931506570" duration="620000" />
       <workItem from="1749932481000" duration="57000" />
+      <workItem from="1749932582654" duration="5513000" />
+      <workItem from="1750093492523" duration="495000" />
+      <workItem from="1750094000417" duration="18862000" />
     </task>
     <servers />
   </component>

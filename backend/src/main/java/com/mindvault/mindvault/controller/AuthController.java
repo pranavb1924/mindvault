@@ -37,10 +37,10 @@ public class AuthController {
 
         // success – for now return basic profile (no password)
         return ResponseEntity.ok(
-                new UserProfile(user.getFirstName(), user.getLastName(), user.getEmail())
+                new UserProfile(user.getId(), user.getFirstName(), user.getLastName(), user.getEmail())
         );
     }
 
     // minimalist inner record to hide password
-    record UserProfile(String firstName, String lastName, String email) {}
+    record UserProfile(Long id, String firstName, String lastName, String email) {}
 }
