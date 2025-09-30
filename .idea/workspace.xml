@@ -10,6 +10,10 @@
       <change afterPath="$PROJECT_DIR$/backend/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pipeline/bullionx-be/src/main/java/com/splitsync/bullionxbe/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pipeline/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pipeline/python-service/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pipeline/python-service/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
@@ -126,6 +130,7 @@
       <workItem from="1749932551833" duration="12000" />
       <workItem from="1749932570677" duration="42000" />
       <workItem from="1750093477876" duration="9000" />
+      <workItem from="1759247141255" duration="38000" />
     </task>
     <servers />
   </component>
